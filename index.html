@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <!-- First Component  -->
+    <div class="header--wrapper">
+      <div class="text--wrapper">
+        <p class="balance">My Balance</p>
+        <h1 class="remaining--balance">$921.48</h1>
+      </div>
+      <div class="logo--wrapper">
+        <img src="./images/logo.svg" alt="">
+      </div>
+    </div>
+
+    <!-- Main Component -->
+    <div class="main--component">
+      <h2 class="days">Spending - Last 7 days</h2>
+
+      <div class="chart--wrapper">
+
+        <div class="chart--container">
+          <div class="price"><span>$17.45</span></div>
+          <div class="chart" id="chart1"></div>
+          <span class="day">mon</span>
+        </div>
+
+        <div class="chart--container">
+          <div class="price"><span>$34.91</span></div>
+          <div class="chart" id="chart2"></div>
+          <span class="day">tue</span>
+        </div>
+
+        <div class="chart--container">
+          <div class="price"><span>$52.36</span></div>
+          <div class="chart" id="chart3"></div>
+          <span class="day">wed</span>
+        </div>
+
+        <div class="chart--container">
+          <div class="price"><span>$31.07</span></div>
+          <div class="chart" id="chart4"></div>
+          <span class="day">thu</span>
+        </div>
+
+        <div class="chart--container"> 
+          <div class="price"><span>$23.39</span></div>
+          <div class="chart" id="chart5"></div>
+          <span class="day">fri</span>
+        </div>
+
+        <div class="chart--container"> 
+          <div class="price"><span>$43.28</span></div>
+          <div class="chart" id="chart6"></div>
+          <span class="day">sat</span>
+        </div>
+
+        <div class="chart--container">
+          <div class="price"><span>$25.48</span></div>
+          <div class="chart" id="chart7"></div>
+          <span class="day">sun</span>
+        </div>
+
+      </div>
+
+      <div class="total--price--container">
+          <div class="price--wrapper">
+            <span class="month">Total This Month</span>
+            <h2 class="total--price">$478.83</h2>
+          </div>
+          
+          <div class="percentage--wrapper">
+             <h4 class="percentage">+2.4%</h4>
+             <span class="duration">from last month</span>
+          </div>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
